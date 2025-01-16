@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
-      - uses: s4u/setup-maven-action@< version >
+      - uses: s4u/maven-settings-action@64e42c454dbd42ef6370ac8539685755aedd205b
+##      - uses: s4u/setup-maven-action@< version >
         with:
           java-version: '11'
           maven-version: '3.3.9'
